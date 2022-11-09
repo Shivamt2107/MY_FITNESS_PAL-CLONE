@@ -1,0 +1,224 @@
+.main_container {
+    /* border: 1px solid black; */
+    height: auto;
+    padding: 80px;
+}
+
+.good_health_section {
+    /* border: 1px solid red; */
+    margin-top: -10px;
+    height: 450px;
+    display: grid;
+    margin-bottom: 80px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.good_health_first_div {
+    width: 80%;
+    margin-left: 18px;
+    /* border: 1px solid black; */
+}
+
+.good_health_first_div>h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1;
+    font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+}
+
+.good_health_first_div>p {
+    font-size: 1rem;
+    margin-top: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(65, 63, 63);
+    font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+    margin-bottom: 16px;
+}
+
+.good_health_first_div>button {
+    padding: 15px;
+    color: #fff;
+    background-color: #0066EE;
+    font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+    font-weight: 500;
+    width: 70%;
+    font-size: 0.9375rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    min-width: 64px;
+    border-radius: 5px;
+}
+
+.good_health_imageSide {
+    /* border: 2px solid red; */
+    width: 110%;
+    margin-left: -20px;
+    margin-top: -30px;
+}
+
+.good_health_imageSide img {
+    height: 480px;
+    width: 80%;
+}
+
+
+
+.log_from_14_section {
+    margin-top: -50px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    gap: 10px;
+    /* border: 1px solid black; */
+}
+
+.log_from_14_section div {
+    border: 0px solid black;
+}
+
+.log_from_imageSide {
+    width: 80%;
+    margin-left: 70px;
+}
+
+.log_from_imageSide img {
+    height: 380px;
+    width: 80%;
+}
+
+.log_from_sec_div>h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1;
+    font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+}
+
+.log_from_sec_div>p {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: rgb(65, 63, 63);
+    font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+
+}
+.Your_Goal_section{
+    /* border: 1px solid black; */
+    margin-bottom: 80px;
+}
+
+.Your_Goal_section>div>h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    min-width: 560px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 54px;
+}
+
+.Your_Goal_section>div>p {
+    /* border: 1px solid black; */
+    width: 50%;
+    text-align: center;
+    font-weight: 400;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+    margin-bottom: 16px;
+}
+
+.Your_goal_Flex_root_section {
+    /* border: 1px solid red; */
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.Your_goal_Flex_root_section>div {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    height: 350px;
+    /* box-shadow: 0px 2px 16px 2px rgb(0 0 0 / 7%); */
+}
+
+.Your_Goal_root_section_img {
+    /* border: 1px solid red; */
+    height: 45%;
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 2px 16px 2px rgb(0 0 0 / 7%);
+}
+
+
+.Your_goal_root_section_tagS{
+    margin-top:30px;
+}
+
+.Your_Goals_hTwo_Tag{
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+    margin-bottom: 0.35em;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+}
+
+.Your_goal_p_tags{
+    font-size: 1rem;
+    color: rgb(62, 62, 62);
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+    margin-bottom: 16px;
+}
+
+.Your_Goal_root_section_img>img{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-top: 30px;
+    height: 110px;
+}
+.Victory_section{
+    /* border: 1px solid black; */
+
+}
+
+.Victory_section>div>h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    min-width: 560px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 54px;
+}
+
+.Victory_section>div>p {
+    /* border: 1px solid black; */
+    width: 50%;
+    text-align: center;
+    font-weight: 400;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+    margin-bottom: 16px;
+}
