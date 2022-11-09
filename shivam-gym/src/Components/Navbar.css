@@ -1,0 +1,39 @@
+.Main-container {
+    height: 50px;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0 0 4px rgb(0 0 0 / 9%);
+    background-color: #FFFFFF;
+    color: #000000;
+    top: 0px;
+}
+
+.logo-heading {
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+    height: auto;
+    color: #0066EE;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 80px;
+    font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+    background-color: #fff;
+}
+
+.Login-btn {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 80px;
+    line-height: 1.5;
+    font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+}
