@@ -1,5 +1,5 @@
 .main_container {
-    /* border: 1px solid black; */
+    /* border: 1px solid red; */
     height: auto;
     padding: 80px;
 }
@@ -199,7 +199,6 @@
 
 
 
-
 .Victory_section>div>h2 {
     text-align: center;
     margin-bottom: 24px;
@@ -220,4 +219,165 @@
     line-height: 1.5;
     font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
     margin-bottom: 16px;
+}
+
+.slider{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+
+.victory_Button{
+    width: 50%;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 15px;
+    color: #fff;
+    background-color: #0066EE;
+    font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    min-width: 64px;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+
+.slider_main{
+    /* border:1px solid black; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.Recipes_section{
+    /* border: 1px solid black; */
+    margin-top: 100px;
+}
+
+.Recipes_section_hTwo{
+    text-align: center;
+    margin-bottom: 24px;
+    min-width: 560px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 54px;
+}
+
+.Recipes_section_pTag{
+    width: 50%;
+    text-align: center;
+    font-weight: 400;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+    margin-bottom: 16px;
+}
+
+.Recipes_section_Div{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.recipeImg{
+    border-radius: 20px 20px 0px 0px;
+    height: 180px;
+}
+
+.Recipes_section_Div>div{
+    border: 1px solid rgb(201, 200, 200);
+    width: 35%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.recipe_hone_tag{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 10px;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+    color: #212121;
+    line-height: 1.4;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.recipeLink{
+    /* border: 1px solid black; */
+    font-size:16px;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+    line-height: 1.334;
+    color: #0066EE;
+
+}
+
+.ConnectSectionDiv{
+    border: 0px solid black;
+}
+
+.connect_section_hTwo{
+    width: 40%;
+    margin: auto;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-bottom: 24px;
+    min-width: 460px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 54px;
+}
+
+.connection_section_pTag{
+    width: 50%;
+    text-align: center;
+    font-weight: 400;
+    margin: auto;
+    font-size: 1rem;
+    margin-top: -10px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+    margin-bottom: 16px;
+}
+
+
+
+.connectImg>img{
+    /* border: 1px solid red; */
+    height: 400px;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.HomeLastPTag{
+    width: 67%;
+    /* border: 1px solid black; */
+    margin: auto;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+    line-height: 1.66;
+    color: #6C6C70;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: 70px;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+    line-height: 1.66;
 }

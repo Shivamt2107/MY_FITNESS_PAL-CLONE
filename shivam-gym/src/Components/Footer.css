@@ -1,0 +1,49 @@
+.FooterMainDiv{
+    /* border: 1px solid black; */
+    background-color: #F6F6F8;
+    padding: 20px;
+    margin-top: -40px;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterLinksDiv{
+    /* border: 1px solid teal; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-weight: 400;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 48%;
+    color: blue;
+    font-size: 12px;
+    
+}
+
+.FooterLinksDivPTag{
+    border: 0px solid black;
+    margin-top: 10px;
+}
+
+.FooterNavbar{
+    /* border: 1px solid black; */
+    display:flex;
+    width: 70%;
+    font-size: 15px;
+    font-weight: 720;
+    justify-content: space-evenly;
+}
+

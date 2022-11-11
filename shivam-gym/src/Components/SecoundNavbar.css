@@ -1,0 +1,14 @@
+.SecoundNavbarDiv{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background-color: #0066EE;
+    color: whitesmoke;
+}
+
+.SecoundNavbarDiv h2{
+    border: 0px solid red;
+    margin-left:90px;
+    font-weight: 600;
+}
