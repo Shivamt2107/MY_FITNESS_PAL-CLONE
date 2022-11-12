@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="FooterMainDiv">
           
             <div className="FooterNavbar">
-                <Link to="/"><h2>ABOUT</h2></Link>
+                <Link to="/about"><h2>ABOUT</h2></Link>
                 <Link><h2>FOOD</h2></Link>
                 <Link><h2>EXERCISE</h2></Link>
                 <Link><h2>APPS</h2></Link>
