@@ -9,7 +9,7 @@ const SecoundNavbar=()=>{
 
         <div className="SecoundNavbarDiv">
             <div></div>
-            <Link><h2>ABOUT</h2></Link>
+            <Link to="/about"><h2>ABOUT</h2></Link>
             <Link><h2>FOOD</h2></Link>
             <Link><h2>EXERCISE</h2></Link>
             <Link><h2>APPS</h2></Link>

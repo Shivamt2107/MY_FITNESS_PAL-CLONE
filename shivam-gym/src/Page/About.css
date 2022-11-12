@@ -1,0 +1,141 @@
+.MainContainer {
+    padding: 10px;
+}
+
+.LoseSectionDiv {
+    width: 80%;
+    margin: auto;
+    height: 20px;
+
+}
+
+.LoseSectionHeader {
+    color: #0a5282;
+    font-size: 23px;
+    font-weight: bolder;
+    margin: 10px 0 20px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.LoseSectionPTagSection {
+    /* border: 1px solid black; */
+    width: 95%;
+    height: auto;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 70% 35%;
+}
+
+.LoseSectionPTagSection>div {
+    border: 0px solid red;
+}
+
+.LossPTagOrigin {
+    font-size: 14px;
+    color: #120012;
+    line-height: 18px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.HowDoesItWorkDiv {
+    background-color: #f6f6f6;
+    border: 2px solid #cbcbcb;
+    background-image: url(https://www.myfitnesspal.com/assets/img-about-us.png);
+    padding: 180px 43px 46px 162px;
+    background-repeat: no-repeat;
+}
+
+.HowDoesTag {
+    /* border: 1px solid black; */
+    margin-top: -10rem;
+}
+
+.HowDoesHTwoTag {
+    color: #0a5282;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.HowDoesThePTag {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+
+.WithFreeSection {
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+
+.WithFreeHTwoTag {
+    color: #0a5282;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.WithFreePTag {
+    /* border: 1px solid black; */
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.WaitSection {
+    border: 0px solid black;
+    margin-top: 50px;
+    height: 50px;
+}
+
+
+.StartLosing {
+    background-color: #f6f6f6;
+    border: 2px solid #cbcbcb;
+    margin-top: 5px;
+    background-image: url(https://www.myfitnesspal.com/assets/img-about-us-2.png);
+    padding: 180px 43px 0px 162px;
+    background-repeat: no-repeat;
+}
+
+.JoinBtn {
+    background-color: rgb(21, 144, 21);
+    border: 1px solid rgb(52, 219, 85);
+    padding: 7px;
+    width: 40%;
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.FooterAbout {
+    margin-top: 80rem;
+}
+.LoseSectionPTagSection>div:nth-child(2){
+    height: 400px;
+    margin-top: -10px;
+    margin-left: 10px;
+    border: 3px solid #f3f1f1;;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.AboutLoginHead{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.InputFormDiv{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: auto;
+}

@@ -86,10 +86,10 @@ function Login() {
                             Twitter
                         </Button>
 
-                        <Text mt="15px" textAlign="center">Not a member yet?  <Link to="/"> <span style={{ color:"blue" }}>Sign up now!</span></Link></Text>
+                        <Text mt="15px" textAlign="center">Not a member yet?  <Link to="/sign_up"> <span style={{ color: "blue" }}>Sign up now!</span></Link></Text>
                     </Flex>
                 </Flex>
-            
+
             </div>
 
             <Footer />
