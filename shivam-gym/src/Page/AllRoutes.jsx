@@ -4,6 +4,8 @@ import Login from './Login'
 import Home from "./Home"
 import SignUp from './SignUp'
 import About from './About'
+import Food from './Food'
+import Exercise from './Exercise'
 
 
 function AllRoutes() {
@@ -17,6 +19,8 @@ function AllRoutes() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/sign_up" element={<SignUp />}></Route>
                 <Route path='/about' element={<About/>}></Route>
+                <Route path='/food' element={ <Food/> }></Route>
+                <Route path='/exercise' element={ <Exercise/> }></Route>
             </Routes>
 
         </>

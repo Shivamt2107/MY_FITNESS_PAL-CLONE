@@ -1,0 +1,122 @@
+.FoodMainDiv{
+    /* border: 1px solid black; */
+    height: 500px;
+}
+
+.foodSearchDiv{
+    /* border: 1px solid teal; */
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 2px;
+}
+
+.foodSearchDiv>div{
+    border: 0px solid red;
+}
+
+.FoodImgDiv img{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.FoodAnaLysHTwo{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.15;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+}
+
+.FoodAnaLysPTag{
+    width: 70%;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.625;
+    text-align: center;
+    line-height: 1.8;
+    padding-top: 12px;
+}
+
+.RecipeAnaLysHTwo{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.15;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+}
+
+.Recipes_section_DivFoodPage{
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding:20px ;
+    margin-bottom: 80px;
+}
+
+.Recipes_section_DivFoodPage>div{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.recipeImg{
+    border-radius: 20px 20px 0px 0px;
+    height: 210px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.recipe_tag{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 1.5;
+    padding: 10px;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+    color: #212121;
+    line-height: 1.4;
+    margin: 0px;
+    margin-top: 10px;
+   
+}
+
+.FooterOnFoodPage{
+    margin-top: 36rem;
+}
+
+ 
+.foodSearchDiv>div:nth-child(2){
+    margin-left: 20px;
+    border: 0px solid black;
+    display: grid;
+    height: 950px;
+    gap: 70px;
+    grid-template-columns: repeat(1,1fr);
+} 
+
+.SideAdDiv div{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    border: 0px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 460px;
+}
+
+.SideAdDiv div>img{
+    height: 460px;
+    width: 100%;
+}

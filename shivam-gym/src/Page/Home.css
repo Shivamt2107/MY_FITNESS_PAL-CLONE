@@ -296,7 +296,8 @@
 .Recipes_section_Div>div{
     border: 1px solid rgb(201, 200, 200);
     width: 35%;
-    height: 300px;
+    height:auto;
+    padding-bottom: 5px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
