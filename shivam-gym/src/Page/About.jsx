@@ -4,10 +4,19 @@ import Footer from "../Components/Footer";
 import SecoundNavbar from "../Components/SecoundNavbar";
 import "./About.css"
 
+const SignUpText=()=>{
+    return(
+        <>
+            <h1>Sign UP</h1>
+        </>
+    )
+}
+
+
 const About = () => {
     return (
         <>
-            <SecoundNavbar />
+            <SecoundNavbar text={SignUpText}/>
             <div>
 
                 <div className="MainContainer">

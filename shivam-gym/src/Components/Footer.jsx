@@ -11,8 +11,8 @@ const Footer = () => {
           
             <div className="FooterNavbar">
                 <Link to="/about"><h2>ABOUT</h2></Link>
-                <Link><h2>FOOD</h2></Link>
-                <Link><h2>EXERCISE</h2></Link>
+                <Link to="/food"><h2>FOOD</h2></Link>
+                <Link to="/exercise"><h2>EXERCISE</h2></Link>
                 <Link><h2>APPS</h2></Link>
                 <Link><h2>COMMUNITY</h2></Link>
                 <Link><h2>BLOG</h2></Link>

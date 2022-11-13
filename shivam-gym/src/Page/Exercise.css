@@ -1,0 +1,176 @@
+.ExerciseMainDiv{
+    /* border: 1px solid black; */
+    height: auto;
+}
+
+.ExerciseIMGFirstDiv{
+    /* border: 1px solid teal; */
+    margin: auto;
+    margin-top: 30px;
+    width: 58%;
+}
+
+.CaloriesBurnedDiv{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 2px;
+}
+
+.CaloriesBurnedDiv>div{
+    border: 0px solid red;
+}
+
+.CaloriesBurnedHTwoTag{
+    color: #0a5282;
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 17px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+
+.searchOurExerciseMainDiv{
+    /* border: 1px solid black; */
+    height: auto;
+    margin-top: -10px;
+    display: flex;
+    gap: 20px;
+}
+
+.searchOurExerciseMainDiv>div{
+    /* border: 2px solid teal; */
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.searchOurExerciseHTwoTag{
+    color: #0a5282;
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.MatchingExerciseMainDiv{
+    /* border: 1px solid black; */
+    margin-top: 7px;
+}
+
+.MatchingExerciseUnderDiv{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 5px;
+    height: 220px;
+}
+.MatchingExerciseUnderDiv>div:nth-child(1){
+    border: 1px solid black;
+}
+
+.MatchingExerciseUnderDiv>div{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.MatchingExerciseUnderDiv>div:nth-child(2){
+    background-color: rgb(227, 225, 225);
+    padding: 10px;
+    text-align: center;
+}
+.MatchHeadHThree{
+    color: #0a5282;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.MatchHFourTag{
+    color: #19791e;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 21px 0 24px 0;
+}
+
+.KiloWeightDiv{
+    margin-top: 7px;
+    /* border: 1px solid black; */
+    height: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 25% 40% 35%;
+    gap: 2px;
+}
+
+.LiTagKilo{
+    font-family: inherit;
+    font-size: 13.50px;
+    font-weight:700;
+    /* border: 1px solid black; */
+}
+
+.YourWeightInput input{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-left: 12px;
+}
+
+.CaloriesBurnedDiv{
+    margin-top: 15px;
+}
+
+.CaloriesBurnedDiv>h2{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.CaloriesBurnedSpan{
+    color: #0d5010;
+}
+
+.BrowseOurMainDiv{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    height: auto;
+    width: 60%;
+    margin-left: 125px;
+    margin-bottom: 100px;
+}
+
+.BrowseOurMainDiv>div{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.BrowseOurExercise{
+    color: #0a5282;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.pagination{
+    /* border: 1px solid black; */
+    width:150%;
+    color: #0072BC;
+    cursor: pointer;
+    margin-left: -125px;
+    margin-top: 10px;
+    height: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.CaloriesBurnedDiv>div:nth-child(2) img{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 10px;
+    height: 350px;
+}
